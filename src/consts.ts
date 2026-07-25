@@ -1,44 +1,36 @@
 import type { Site, Metadata, Socials } from "@types";
 
 export const SITE: Site = {
-  NAME: "Astro Nano",
-  EMAIL: "markhorn.dev@gmail.com",
+  NAME: "AcquireLift | Google Ad Grant Specialist",
+  EMAIL: "AcquireLift@gmail.com",
   NUM_POSTS_ON_HOMEPAGE: 3,
   NUM_WORKS_ON_HOMEPAGE: 2,
   NUM_PROJECTS_ON_HOMEPAGE: 3,
 };
 
 export const HOME: Metadata = {
-  TITLE: "Home",
-  DESCRIPTION: "Astro Nano is a minimal and lightweight blog and portfolio.",
+  TITLE: "Google Ad Grant Specialist & Account Audits",
+  DESCRIPTION: "Certified Google Partner helping non-profits maximize $10,000/month in free Google Search ads. Audits, compliance fixes, and campaign optimization.",
 };
 
 export const BLOG: Metadata = {
-  TITLE: "Blog",
-  DESCRIPTION: "A collection of articles on topics I am passionate about.",
+  TITLE: "Ad Grant Articles & Guides",
+  DESCRIPTION: "Practical guides and policy advice for non-profits managing Google Ad Grants.",
 };
 
 export const WORK: Metadata = {
-  TITLE: "Work",
-  DESCRIPTION: "Where I have worked and what I have done.",
+  TITLE: "Case Studies & Proof",
+  DESCRIPTION: "Verified results, client reviews, and account audit case studies.",
 };
 
 export const PROJECTS: Metadata = {
-  TITLE: "Projects",
-  DESCRIPTION: "A collection of my projects, with links to repositories and demos.",
+  TITLE: "Services",
+  DESCRIPTION: "Google Ad Grant Account Audits, Setup, and Campaign Optimization.",
 };
 
 export const SOCIALS: Socials = [
   { 
-    NAME: "twitter-x",
-    HREF: "https://twitter.com/markhorn_dev",
-  },
-  { 
-    NAME: "github",
-    HREF: "https://github.com/markhorn-dev"
-  },
-  { 
-    NAME: "linkedin",
-    HREF: "https://www.linkedin.com/in/markhorn-dev",
+    NAME: "email",
+    HREF: "mailto:AcquireLift@gmail.com",
   }
 ];
